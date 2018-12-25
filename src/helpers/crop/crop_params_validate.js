@@ -8,7 +8,7 @@ module.exports = (params) => {
       params[item] = parseInt(params[item], 10);
     } else if (validator.isIn(
       params[item],
-      ['NorthWest', 'North', 'NorthEast', 'West', 'Center', 'East', 'SouthWest', 'South', 'SouthEast' ]
+      ['NorthWest', 'North', 'NorthEast', 'West', 'Center', 'East', 'SouthWest', 'South', 'SouthEast']
     )) {
       params[item] = params[item];
     } else {
